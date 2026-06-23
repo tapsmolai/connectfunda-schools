@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import AudienceHeader from "./AudienceHeader";
 import PlansModal from "./PlansModal";
-import schoolsHero from "../assets/tertiary-hero.jpg";
-import trustImage from "../assets/tertiary-study.jpg";
+import schoolsHero from "../assets/hero.jpg";
+import trustImage from "../assets/kids-learning.png";
 import SiteFooter from "./SiteFooter";
 import logo from "../assets/cf-logo.png";
 import SchoolsRegistrationForm from "./SchoolsRegistrationForm";
@@ -853,13 +853,10 @@ export default function SchoolsLanding() {
                   </strong>{" "}
                   (the Mobile Network Operator providing nationwide coverage),
                   with MVNX infrastructure and technology backing handling the
-                  operational and technical layer.
-                </p>
-
-                <p className="mt-5 max-w-[60ch] text-[.98rem] leading-[1.75] text-cf-muted">
-                  We are already in conversation with the Gauteng Department of
-                  Education and provincial partners in Ekurhuleni, Sedibeng,
-                  Tshwane, and the New Leaders Foundation.
+                  operational and technical layer. We are already in
+                  conversation with the Gauteng Department of Education and
+                  provincial partners in Ekurhuleni, Sedibeng, Tshwane, and the
+                  New Leaders Foundation.
                 </p>
 
                 <p className="mt-7 text-[.8rem] text-cf-muted/70">
