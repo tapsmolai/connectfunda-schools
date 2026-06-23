@@ -66,7 +66,7 @@ function VideoCard({
     <article
       className={`flex flex-col overflow-hidden rounded-[22px] bg-cf-navyInk shadow-[0_18px_40px_-30px_rgba(27,34,44,.42)] ${className}`}
     >
-      <div className="relative h-[220px] overflow-hidden sm:h-[250px] lg:h-[270px]">
+      <div className="relative aspect-video overflow-hidden">
         {isPlaying ? (
           kind === "vimeo" ? (
             <iframe
@@ -399,9 +399,9 @@ export default function SchoolsLanding() {
               </p>
             </div>
 
-            <div className="mt-10 grid gap-5 lg:grid-cols-6">
+            <div className="grid gap-5 md:grid-cols-2 mt-10">
               <VideoCard
-                className="lg:col-span-4"
+                // className="lg:col-span-4"
                 badge="Intro video"
                 title="Referral Partnership Teaser"
                 description="60s · The opportunity in one minute"
@@ -412,7 +412,7 @@ export default function SchoolsLanding() {
               />
 
               <VideoCard
-                className="lg:col-span-2"
+                // className="lg:col-span-2"
                 badge="Demo / mockup"
                 title="Funda Guide AI"
                 description="24/7 CAPS & IEB-aligned AI tutor via app or WhatsApp. Basic tier FREE on all plans."
@@ -421,7 +421,7 @@ export default function SchoolsLanding() {
               />
 
               <VideoCard
-                className="lg:col-span-3"
+                // className="lg:col-span-3"
                 badge="Learning partner"
                 title="Matific"
                 description="Gamified Maths for Grades 4–9"
@@ -430,7 +430,7 @@ export default function SchoolsLanding() {
               />
 
               <VideoCard
-                className="lg:col-span-3"
+                // className="lg:col-span-3"
                 badge="Learning partner"
                 title="Readability Tutor"
                 description="Grade 0–6 Reading"
